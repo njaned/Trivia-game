@@ -1,0 +1,26 @@
+{
+  "name": "trivia-cli",
+  "version": "1.0.0",
+  "description": "An interactive terminal trivia game with timed questions, scoring, and a local leaderboard.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "trivia-cli": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "trivia",
+    "quiz",
+    "cli",
+    "game",
+    "nodejs"
+  ],
+  "license": "MIT"
+}
